@@ -12,11 +12,11 @@ const About = () => {
                 <div>
                 <article className="about_me">
                     <p>
-                    Born and raised in Maryland, I graduated from UMBC in 2016 with my Bachelor’s degree in Psychology. First and foremost, I am an advocate. Mental Health and seeking equity for underrepresented communities are passions of mine. I have worked over 3 years in the Non-profit sector. My experiences there have cultivated me into the critical leader I am today.
+                    Born and raised in Maryland, I graduated from UMBC in 2016 with my Bachelor’s degree in Psychology. First and foremost, I am an advocate. Mental Health and seeking equity for underrepresented communities are my passions. With over 3  years in the Non-profit sector, my experiences there have cultivated me into the adaptable leader I am today.
                     </p>
                     
                     <p>
-                    In 2020, I attended and completed a coding bootcamp hosted by John Hopkins University in 2020 with a focus in Full Stack Web Development.
+                    In 2020, I attended and completed a coding bootcamp hosted by John Hopkins University with a focus in Full Stack Web Development.
                     </p>
                 
                     <p>
