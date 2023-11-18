@@ -1,17 +1,28 @@
+nav{ 
+    width: 20vw;
+    position: relative; 
+    
+}
 nav ul { 
     background-color: #162113; 
+    border-radius: 2.5rem; 
     color: #FFEACF; 
     list-style: none; 
 
     margin-top: 4rem; 
     margin-bottom: 4rem; 
-    padding: 1rem 4.5rem; 
-    width: 40vw; 
+    padding: 1rem 3.5rem;  
 
-    border-radius: 2.5rem; 
+    
     display: flex; 
     flex-direction: row; 
-    justify-content: center; 
+    justify-content: flex-end; 
     align-items: center; 
-    gap: 4rem; 
+    gap: 2rem; 
+}
+
+nav svg{ 
+    position: absolute; 
+    top: 40%; 
+    left: 10%
 }

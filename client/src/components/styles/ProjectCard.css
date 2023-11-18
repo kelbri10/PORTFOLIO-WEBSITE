@@ -1,0 +1,34 @@
+.project_card{ 
+    margin-bottom: 5rem; 
+    background: linear-gradient(360deg, rgba(25, 25, 25, 0.85) 24.09%, 
+    rgba(22, 33, 19, 0.74) 46.04%, 
+    rgba(231, 61, 0, 0.70) 94.17%);
+
+    color: #FFEACF;
+    border-radius: 2.5rem;
+    width: 75vw; 
+    height: 30vh; 
+
+    display: flex; 
+    flex-direction: row;  
+    justify-content: space-evenly; 
+    align-items: center; 
+}
+
+.project_card h1{ 
+    font-size: 15rem; 
+    font-weight: 600;
+    letter-spacing: -1.25rem; 
+}
+
+.project_card_label{
+    h2{ 
+        font-size: 6rem;
+        font-weight: 600;
+        letter-spacing: -0.5rem; 
+    }
+    p{ 
+        font-size: 1.25rem; 
+        font-weight: 300;
+    }
+} 

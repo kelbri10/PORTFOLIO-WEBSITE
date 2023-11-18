@@ -1,3 +1,5 @@
+import "./styles/ProjectCard.css"; 
+
 type ProjectProps = { 
     projectNum: number, 
     projectName: string, 
@@ -7,7 +9,7 @@ type ProjectProps = {
 const ProjectCard = ({projectNum, projectName, projectLang}: ProjectProps) => { 
     return(
         <section className="project_card">
-            <h1>{projectNum}</h1>
+            <h1>0{projectNum}</h1>
 
             <div className="project_card_label">
                 <h2>{projectName}</h2>

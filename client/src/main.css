@@ -6,3 +6,15 @@
     box-sizing: border-box; 
     font-family: 'Inter', sans-serif; 
 }
+
+body{ 
+    background: rgba(255, 234, 207, 0.60);
+    
+}
+
+.container{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}

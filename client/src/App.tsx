@@ -1,13 +1,17 @@
 import "./main.css"; 
 import NavBar from "./components/NavBar";
-
+import ProjectCard from "./components/ProjectCard";
 function App() {
 
 
   return (
-    <>
+    <div className="container">
       <NavBar />
-    </>
+      <ProjectCard projectNum={1} projectLang="ReactJs, React Router, TailwindCSS, Firebase, Git version control" projectName="Bookhood" />
+      <br></br>
+      <br></br>
+      <ProjectCard projectNum={2} projectLang="ReactJs, ExpressJs, TailwindCSS, MongoDB, Git Version Control" projectName="The Key Shop" />
+    </div>
   )
 }
 
