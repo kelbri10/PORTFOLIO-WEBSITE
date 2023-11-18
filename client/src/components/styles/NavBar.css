@@ -1,0 +1,17 @@
+nav ul { 
+    background-color: #162113; 
+    color: #FFEACF; 
+    list-style: none; 
+
+    margin-top: 4rem; 
+    margin-bottom: 4rem; 
+    padding: 1rem 4.5rem; 
+    width: 40vw; 
+
+    border-radius: 2.5rem; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 4rem; 
+}
