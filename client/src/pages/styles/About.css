@@ -1,11 +1,19 @@
 div{ 
     h1{ 
+        text-align: center; 
         color: #191919; 
         font-size: 6rem; 
         font-weight: 600; 
         letter-spacing: -0.5rem; 
         margin-bottom: 3rem; 
     }
+}
+
+.about_me_container{ 
+    display: flex; 
+    flex-direction: row-reverse; 
+    justify-content: space-between; 
+    gap: 10rem; 
 }
 
 .about_me{
@@ -21,10 +29,15 @@ div{
     }
 }
 
+#photo1{ 
+    width: 423px;
+    border-radius: 2.5rem; 
+    border: 5px solid #212A1C;
+}
+
 .resume_link{ 
     color: #191919;
     font-weight: 600; 
-
     a{ 
         color: #191919;
         text-decoration: underline; 
