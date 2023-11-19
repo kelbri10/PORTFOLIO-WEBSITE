@@ -16,6 +16,8 @@
 }
 
 .project_card h1{ 
+    margin-top: 5rem; 
+    color: #FFEACF;
     font-size: 15rem; 
     font-weight: 600;
     letter-spacing: -1.25rem; 

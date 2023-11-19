@@ -1,4 +1,4 @@
-div{ 
+.about_me_div{ 
     h1{ 
         text-align: center; 
         color: #191919; 
@@ -10,6 +10,7 @@ div{
 }
 
 .about_me_container{ 
+    margin-bottom: 5rem; 
     display: flex; 
     flex-direction: row-reverse; 
     justify-content: space-between; 

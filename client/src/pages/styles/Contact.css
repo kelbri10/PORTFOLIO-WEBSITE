@@ -1,0 +1,28 @@
+div{ 
+    h1{ 
+        text-align: center; 
+        color: #191919;
+        font-size: 6rem; 
+        font-weight: 500; 
+        letter-spacing: -0.5rem; 
+        margin-bottom: 6rem; 
+    }
+}
+.social_media_icons{ 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    margin-bottom: 10rem; 
+}
+
+footer{ 
+    text-align: center; 
+
+    .quote{ 
+        margin-bottom: 1rem; 
+        font-weight: 300; 
+        font-style: italic;
+        
+        
+    }
+}

@@ -1,6 +1,6 @@
-import "../../main.css"; 
 import NavBar from "../../components/NavBar";
 import ProjectCard from "../../components/ProjectCard";
+import "../../main.css"
 
 const Work = () => { 
     return (

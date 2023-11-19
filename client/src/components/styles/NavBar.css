@@ -1,12 +1,10 @@
 nav{ 
     min-width: 400px;
     position: relative; 
-    
 }
 nav ul { 
     background-color: #162113; 
     border-radius: 2.5rem; 
-    color: #FFEACF; 
     list-style: none; 
 
     margin-top: 4rem; 
@@ -19,6 +17,10 @@ nav ul {
     justify-content: flex-end; 
     align-items: center; 
     gap: 2rem; 
+}
+.nav_link{ 
+    text-decoration: none; 
+    color: #FFEACF; 
 }
 
 nav svg{ 
