@@ -9,7 +9,7 @@ const NavBar = () => {
         </svg>
             <ul>
                 <li><NavLink to="/" className="nav_link">about</NavLink></li>
-                <li><NavLink to="/work" className="nav_link">work</NavLink></li>
+                <li><NavLink to="/work/all" className="nav_link">work</NavLink></li>
                 <li><NavLink to="/contact" className="nav_link">contact</NavLink></li>
             </ul>
         </nav>
