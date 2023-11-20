@@ -20,11 +20,10 @@
 .about_me{
     max-width: 600px;  
     color: #191919;
-    text-align: justify;
-    font-size: 1.25rem; 
-    font-weight: 300;
-    letter-spacing: 0.1rem;
-
+    font-size: 1rem; 
+    font-weight: 400;
+    line-height: 1.8; 
+    margin-bottom: 4rem; 
     p{ 
         margin-bottom: 1.5rem; 
     }
