@@ -16,11 +16,13 @@ nav ul {
     flex-direction: row; 
     justify-content: flex-end; 
     align-items: center; 
-    gap: 2rem; 
+    
 }
 .nav_link{ 
     text-decoration: none; 
     color: #FFEACF; 
+    position: relative; 
+    padding: 1rem ;
 }
 
 nav svg{ 
@@ -28,3 +30,14 @@ nav svg{
     top: 40%; 
     left: 10%
 }
+
+.nav_link.active{ 
+    color: #EB3D00; 
+    pointer-events: none; 
+}
+
+.nav_link:hover{ 
+    background-color: #EB3D00; 
+    border-radius: 25px; 
+}
+
