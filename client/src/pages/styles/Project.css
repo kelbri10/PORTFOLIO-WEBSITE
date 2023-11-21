@@ -60,6 +60,10 @@ header{
     font-weight: 400; 
 }
 
+.project_info p::selection, 
+.project_info h3::selection{ 
+    background-color: rgba(255, 185, 165, 0.95); 
+}
 .project_links a{ 
     color: #FFEACF;
     font-weight: 600; 
@@ -69,4 +73,9 @@ header{
     padding: 1rem 2rem; 
     text-decoration: none; 
     margin-right: 1rem; 
+}
+
+.project_links a:hover{ 
+    background-color: rgba(235, 60, 0, 0.95); 
+    transition: all 0.5s ease-in-out
 }

@@ -38,7 +38,6 @@ nav svg{
 
 .nav_link:hover{ 
     background-color: rgba(235, 60, 0, 0.85); 
-    border-radius: 15px; 
     transition: background-color 0.3s ease-in; 
 }
 
