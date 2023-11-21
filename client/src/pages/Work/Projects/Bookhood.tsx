@@ -30,7 +30,7 @@ const Bookhood = () => {
                         <div className="project_links">
                             <a href="https://github.com/kelbri10/bookhood" target="_blank">github</a> 
 
-                            <a href="google.com" target="_blank">live site</a>
+                            <a href="https://main--dynamic-twilight-bdcf6a.netlify.app/" target="_blank">live site</a>
                         </div>
                     
                 </motion.div>
