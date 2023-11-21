@@ -38,8 +38,13 @@
 .resume_link{ 
     color: #191919;
     font-weight: 600; 
-    a{ 
+    a { 
         color: #191919;
-        text-decoration: underline; 
     }
 }
+
+.resume_link a:hover{ 
+    color: #EB3D00; 
+}
+
+
