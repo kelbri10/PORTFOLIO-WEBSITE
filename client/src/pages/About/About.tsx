@@ -21,7 +21,7 @@ const About = () => {
                 <motion.div
                 initial={{opacity: 0, y:-50}}
                 animate={{opacity: 1, y:0}}
-                transition={{delay:0.5, duration: 0.5}}>
+                transition={{delay:0.25, duration: 0.5}}>
                     <h1>Who is Kelsey?</h1>
                 </motion.div>
 
@@ -30,14 +30,14 @@ const About = () => {
                     <motion.div
                     initial={{opacity: 0, y: 200}}
                     animate={{opacity: 1, y:0}}
-                    transition={{delay:0.5, duration: 0.5}}>
+                    transition={{delay:0.25, duration: 0.5}}>
                         <img id="photo1" src={img} alt="picture of me sitting outside looking to the left" />
                     </motion.div>
 
                     <motion.div 
                     initial={{opacity: 0, x:-100}}
                     animate={{opacity: 1, x:0}}
-                    transition={{delay: 0.75, duration:0.5}}> 
+                    transition={{delay: 0.5, duration:0.5}}> 
                         <div>
                             <article className="about_me">
                             <p>
