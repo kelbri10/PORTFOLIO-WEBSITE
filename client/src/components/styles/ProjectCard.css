@@ -1,4 +1,6 @@
 .project_card{ 
+    margin-left: 3rem; 
+    margin-right: 3rem; 
     margin-bottom: 5rem; 
     background: linear-gradient(360deg, rgba(25, 25, 25, 0.85) 24.09%, 
     rgba(22, 33, 19, 0.74) 46.04%, 
@@ -7,7 +9,7 @@
     color: #FFEACF;
     border-radius: 2.5rem;
     min-width: 50vw; 
-    height: 30vh; 
+    height: 40vh; 
 
     display: flex; 
     flex-direction: row;  
@@ -36,3 +38,24 @@
         font-weight: 300;
     }
 } 
+
+@media screen and (max-width: 992px){ 
+
+    .project_card h1{ 
+        font-size: 12rem; 
+        font-weight: 600;
+        letter-spacing: -1rem; 
+    }
+    
+    .project_card_label{
+        h2{ 
+            font-size: 4rem;
+            font-weight: 600;
+            
+        }
+        p{ 
+            font-size: 1.25rem; 
+            font-weight: 300;
+        }
+    } 
+}
