@@ -85,6 +85,15 @@ const Bookhood = () => {
                     
                 </motion.article>
             </section>
+
+            <motion.div
+                initial={{opacity: 0, y: 50}}
+                animate={{opacity: 1, y:0}}
+                transition={{delay: 0.65, duration: 0.5}}
+                className="img_container">
+                    {/* <img src={} alt="" height={350}/> */}
+                    {/* <img src={} alt="" height={350}/> */}
+            </motion.div>
         </div>
     )
 }
