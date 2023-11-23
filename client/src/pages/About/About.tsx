@@ -2,21 +2,18 @@ import NavBar from "../../components/NavBar";
 import "../styles/About.css"; 
 import resume from "./assets/Kelsey Hughes Resume.pdf"; 
 import img from "./imgs/photo1.jpg"; 
-// import {useEffect} from "react"; 
+
 import { motion} from "framer-motion";
 
 const About = () => { 
-    // const [scope, animate] = useAnimate();
     
-    // useEffect(() => { 
-    //      animate("p", {opacity: 1}); 
-    // })
     return( 
         <div className="container">
 
             <NavBar />
 
-                      
+            
+
             <div>
                 <motion.div
                 initial={{opacity: 0, y:-50}}
@@ -60,7 +57,7 @@ const About = () => {
                 </section>
             </div>
             
-
+            
             
         </div>
         

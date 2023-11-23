@@ -37,7 +37,7 @@ const Bookhood = () => {
             </header>
             
             <section className="project_description">
-                {/* Come in from the bottom staggered */}
+               
                 <motion.article
                 initial={{opacity: 0, y: 50}}
                 animate={{opacity: 1, y:0}}

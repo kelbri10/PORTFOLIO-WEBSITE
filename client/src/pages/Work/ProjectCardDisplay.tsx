@@ -10,7 +10,7 @@ const ProjectCardDisplay = () => {
           initial={{opacity: 0, y: 50}}
           animate={{opacity: 1, y:0}}
           transition={{delay: 0.35, duration: 0.5}}>
-            <Link to="/work/bookhood" style={{textDecoration: 'none'}}><ProjectCard projectNum={1} projectLang="ReactJs, React Router, TailwindCSS, Firebase, Git version control" projectName="Bookhood" /></Link>
+            <Link to="/work/bookhood" style={{textDecoration: 'none'}}><ProjectCard projectNum={1} projectLang="ReactJs, React Router, TailwindCSS, Firebase, Git Version Control" projectName="Bookhood" /></Link>
           </motion.div>
         
           <motion.div

@@ -10,9 +10,12 @@
 }
 
 .about_me_container{ 
+    margin-left: 3rem; 
+    margin-right: 3rem; 
     margin-bottom: 5rem; 
     display: flex; 
     flex-direction: row-reverse; 
+    align-items: center; 
     justify-content: space-between; 
     gap: 10rem; 
 }
@@ -30,7 +33,7 @@
 }
 
 #photo1{ 
-    width: 423px;
+    width: 463px; 
     border-radius: 2.5rem; 
     
 }
@@ -47,4 +50,16 @@
     color: #EB3D00; 
 }
 
+@media screen and (max-width: 992px ){ 
+    #photo1{ 
+        max-width: 100%;
+    }
+    .about_me_container{ 
+
+        display: flex; 
+        flex-direction: column-reverse;
+        align-items: center;  
+        gap: 5rem; 
+    }
+}
 
