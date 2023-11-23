@@ -1,7 +1,8 @@
 import "../../styles/Project.css"; 
 import "../../../main.css"
 import { motion } from "framer-motion";
-
+import bookhoodFigma from "../assets/BookhoodFigma.png"; 
+import bookhoodMobile from "../assets/BookhoodMobile.png"; 
 const Bookhood = () => { 
 
     return( 
@@ -91,8 +92,8 @@ const Bookhood = () => {
                 animate={{opacity: 1, y:0}}
                 transition={{delay: 0.65, duration: 0.5}}
                 className="img_container">
-                    {/* <img src={} alt="" height={350}/> */}
-                    {/* <img src={} alt="" height={350}/> */}
+                    <img src={bookhoodFigma} alt="screenshot of bookhood figma design concept" height={350}/> 
+                    <img src={bookhoodMobile} alt="screenshots of mobile version of Bookhood showing the login screen, library, and error for when user not logged in" height={350}/>
             </motion.div>
         </div>
     )

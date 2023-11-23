@@ -87,11 +87,13 @@ header{
     flex-wrap: wrap; 
     justify-content: center; 
     gap: 2rem; 
+    margin-bottom: 3rem; 
 }
 
 .img_container img{ 
     border-radius: 1.5rem; 
 }
+
 @media screen and (max-width: 992px){ 
     .project_info{ 
         width: 75vw; 
