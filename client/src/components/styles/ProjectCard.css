@@ -49,7 +49,7 @@
     
     .project_card_label{
         h2{ 
-            font-size: 4rem;
+            font-size: 5rem;
             font-weight: 600;
             
         }
@@ -58,4 +58,36 @@
             font-weight: 300;
         }
     } 
+}
+
+@media screen and (max-width: 660px){ 
+    .project_card{ 
+        max-width: 80vw; 
+        flex-direction: column;
+        gap: 0;  
+    }
+    .project_card h1{ 
+        font-size: 8rem; 
+        margin-top: 0; 
+        margin-bottom: 0; 
+    }
+    .project_card_label{ 
+        h2{ 
+            text-align: center; 
+            letter-spacing: -0.25rem; 
+            font-size: 3rem; 
+        }
+        p{ 
+            text-align: center; 
+            font-size: 1rem; 
+        }
+    }
+}
+
+@media screen and (max-width: 430px){ 
+    .project_card_label{ 
+        h2{ 
+            font-size: 2rem; 
+        }
+    }
 }
