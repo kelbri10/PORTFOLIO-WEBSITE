@@ -23,7 +23,7 @@ const TheKeyShop = () => {
                     
                         <div>
                             <h1>The Key Shop</h1>
-                            <h2>A Keyboard Enthusiast's Dream Shop</h2>
+                            <h2>Keyboard E-Commerce Site</h2>
                         </div>
 
                         <div className="project_links">
@@ -91,8 +91,8 @@ const TheKeyShop = () => {
                 animate={{opacity: 1, y:0}}
                 transition={{delay: 0.65, duration: 0.5}}
                 className="img_container">
-                    <img src={figmaPNG} alt="figma wireframe ideas for key shop layout" height={350}/>
-                    <img src={mobileMockPNG} alt="3 mobile mock images of the key shop home page, collections page, and cart page taken from live site" height={350}/>
+                    <img src={figmaPNG} alt="figma wireframe ideas for key shop layout"/>
+                    <img src={mobileMockPNG} alt="3 mobile mock images of the key shop home page, collections page, and cart page taken from live site"/>
             </motion.div>
         </div>
     )
