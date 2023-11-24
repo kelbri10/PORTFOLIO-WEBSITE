@@ -38,7 +38,7 @@ const About = () => {
                         <div>
                             <article className="about_me">
                             <p>
-                            Born and raised in Maryland, I graduated from UMBC in 2016 with my Bachelor’s degree in Psychology. First and foremost, I am an advocate for mental Health and seeking equity for underrepresented communities. With over 3  years in the Non-profit sector, my experiences there have cultivated me into the adaptable leader I am today.
+                            Born and raised in Maryland, I graduated from UMBC in 2016 with my Bachelor’s degree in Psychology. First and foremost, I am an advocate for Mental Health and seeking equity for underrepresented communities. With over 3  years in the Non-profit sector, my experiences there have cultivated me into the adaptable leader I am today.
                             </p>
 
                             <p>
